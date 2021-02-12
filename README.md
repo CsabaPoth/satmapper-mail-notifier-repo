@@ -6,6 +6,7 @@ The are that the code is looking for is based on the Shapefile located in the sh
 Open Access Hub registration is necessary to access Sentinel-2 data!
 
 ## Required libraries
+The following libraries have to be installed in order to run this code 
 - OS
 - Geopandas
 - Sentinelsat
