@@ -18,7 +18,7 @@ The following libraries have to be installed in order to run this code
 ## Required imputs
 The code needs to be modified with your data (see below) in order to work properly.
 
-- shapefile of yourinterest
+- shapefile of your region if interest
 - shapefile file path
 - Open Access Hub account (username and password)
 - sender e-mail account (username and password)
