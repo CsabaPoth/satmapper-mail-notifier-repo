@@ -23,3 +23,7 @@ The code needs to be modified with your data (see below) in order to work proper
 - Open Access Hub account (username and password)
 - sender e-mail account (username and password)
 - receiver e-mail address
+
+## Available languages
+EN - English
+HU - Hungarian
