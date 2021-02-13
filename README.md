@@ -15,7 +15,7 @@ The following libraries have to be installed in order to run this code
 - Time
 - Schedule
 
-## Required imputs
+## Required inputs
 The code needs to be modified with your data (see below) in order to work properly.
 
 - shapefile of your region if interest
