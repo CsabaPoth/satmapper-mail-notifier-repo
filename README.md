@@ -25,5 +25,5 @@ The code needs to be modified with your data (see below) in order to work proper
 - receiver e-mail address
 
 ## Available languages
-EN - English
+EN - English</br>
 HU - Hungarian
