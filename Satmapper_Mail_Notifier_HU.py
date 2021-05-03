@@ -58,7 +58,7 @@ wkt = "POINT(%f %f %f %f)" %  (float(lonmin) , float(latmin), float(lonmax), flo
 ####################################################
 def job():
     #Sentinel műholdképek keresése SciHub-on, keresési kritériumok alapján
-    api = SentinelAPI(oah_user,oah_pass, 'https://scihub.copernicus.eu/apihub')
+    api = SentinelAPI(oah_user,oah_pass, 'https://apihub.copernicus.eu/apihub/')
     count=api.count(area=wkt, date=(start_date, end_date), platformname=platformname,area_relation='Contains',raw=None,cloudcoverpercentage=(min_cloud,max_cloud),limit=20, processinglevel = processinglevel)
     now = datetime.now()
     now = now.strftime("%d/%m/%Y %H:%M:%S")
