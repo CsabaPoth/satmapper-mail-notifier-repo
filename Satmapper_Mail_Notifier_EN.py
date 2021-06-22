@@ -76,7 +76,7 @@ def job():
         img_proc_lvl=products_df.iloc[0,37] # Get image processing level
         img_date=products_df.iloc[0,4][6:16] # Get acquisition date
         img_time=products_df.iloc[0,4][17:25] # Get acquisition time
-        img_cloud=str(products_df.iloc[0,19])[:5]+' %' # Get cloud coverage
+        img_cloud=str(products_df.iloc[0,21])[:5]+' %' # Get cloud coverage
               
         #Prepare e-mail content
         subject="New satellite image available - "+img_date
