@@ -76,7 +76,7 @@ def job():
         img_proc_lvl=products_df.iloc[0,37] # Feldolgozási szint
         img_date=products_df.iloc[0,4][6:16] # Felvétel rögzítésének dátuma
         img_time=products_df.iloc[0,4][17:25] # Felvétel rögzítésének időpontja
-        img_cloud=str(products_df.iloc[0,19])[:5]+' %' # Felvétel felhőzöttsége
+        img_cloud=str(products_df.iloc[0,21])[:5]+' %' # Felvétel felhőzöttsége
               
         #E-mail tartalom előkészítése
         subject="Új műholdkép - "+img_date
